@@ -34,7 +34,7 @@
     "web-vitals": "^3.0.2"
   },
   "scripts": {
-    "build": "set NODE_OPTIONS=--openssl-legacy-provider && webpack --mode production",
+    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider webpack --mode production",
     "start": "react-scripts start",
     "start2": "webpack serve --mode development",
     "webpack-dev-server": "webpack-dev-server",
@@ -75,6 +75,7 @@
     "autoprefixer": "^10.4.11",
     "babel-loader": "^8.2.5",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
+    "cross-env": "^10.1.0",
     "eslint": "^8.14.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-standard": "^17.0.0",
