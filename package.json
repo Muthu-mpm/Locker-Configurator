@@ -34,7 +34,7 @@
     "web-vitals": "^3.0.2"
   },
   "scripts": {
-    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider && webpack --mode production",
+    "build": " webpack --mode production",
     "start": "react-scripts start",
     "start2": "webpack serve --mode development",
     "webpack-dev-server": "webpack-dev-server",
