@@ -15,17 +15,17 @@ i18n
   // init i18next
   // for all options read: https://www.i18next.com/overview/configuration-options
   .init({
-    fallbackLng: "dutch",
-    default: "dutch",
+    fallbackLng: "en",
+    default: "en",
     debug: false,
     backend: {
       loadPath: () => {
         // check the domain
-
+        return "/locales/{{lng}}/{{ns}}.json"
         return window.location.hostname.includes("localhost")
           ? "/locales/{{lng}}/{{ns}}.json"
           : window.location.origin +
-              "/pub/Configrator/locales/{{lng}}/{{ns}}.json";
+          "/pub/Configrator/locales/{{lng}}/{{ns}}.json";
       },
     },
     interpolation: {
