@@ -63,7 +63,12 @@ module.exports = function (_env, argv) {
     },
     stats: { warnings: false },
     output: {
-      path: path.resolve(__dirname, isProduction ? "public" : "public"),
+      path: path.resolve(
+        __dirname,
+        isProduction
+          ? "public"
+          : "public"
+      ),
 
       filename: "locker.js",
       library: "locker",
