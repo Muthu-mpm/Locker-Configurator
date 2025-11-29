@@ -1323,17 +1323,17 @@ export default class Engine {
           );
           doc.addImage(imageObj, "png", 80, 10);
           doc.setFontSize(9);
-          doc.text("Olssen BV", 160, 200);
-          doc.text("Parabool 28", 160, 205);
-          doc.text("3364 DH Sliedrecht", 160, 210);
+          // doc.text("Olssen BV", 160, 200);
+          // doc.text("Parabool 28", 160, 205);
+          // doc.text("3364 DH Sliedrecht", 160, 210);
 
-          doc.text("The Netherlands", 160, 220);
-          doc.text("+31 (0)84 - 611 400", 160, 225);
-          doc.text("verkoop@olssen.nl", 160, 230);
+          // doc.text("The Netherlands", 160, 220);
+          // doc.text("+31 (0)84 - 611 400", 160, 225);
+          // doc.text("verkoop@olssen.nl", 160, 230);
 
-          doc.text("KVK : 52617688", 160, 240);
-          doc.text("BTW : NL850523242B01", 160, 245);
-          doc.text("IBAN : NL45 RABO 0121648109", 160, 250);
+          // doc.text("KVK : 52617688", 160, 240);
+          // doc.text("BTW : NL850523242B01", 160, 245);
+          // doc.text("IBAN : NL45 RABO 0121648109", 160, 250);
 
           doc.addImage(imageObjBottob, "png", 0, 270, 220, 30);
           setTimeout(() => {

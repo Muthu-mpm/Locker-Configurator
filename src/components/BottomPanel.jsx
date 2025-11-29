@@ -111,11 +111,11 @@ const keySystems = [
   { id: 40000, name: "Smart (Standaard)", img: "" },
   { id: 400001, name: "Cilinderslot", img: "image/keys/cilinderslot.png" },
   { id: 400002, name: "Draaiknop", img: "image/keys/Draaiknop.png" },
-  {
-    id: 400003,
-    name: "Mechanisch cijferslot",
-    img: "image/keys/olssen_mechanisch.png",
-  },
+  // {
+  //   id: 400003,
+  //   name: "Mechanisch cijferslot",
+  //   img: "image/keys/olssen_mechanisch.png",
+  // },
   {
     id: 500001,
     name: "Keynius elektronisch codeslot",
