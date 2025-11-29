@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.75" />
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
@@ -24,6 +24,11 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+    <style>
+      body {
+        zoom: 70%;
+      }
+    </style>
     <title>Locker configurator</title>
   </head>
   <body>
@@ -40,7 +45,11 @@
   To create a production bundle, use `npm run build` or `yarn build`.
     "http://localhost:8081/newcheck"
 -->
-  <script type="text/javascript" src="locker.js"></script><script type="text/javascript" src="locker.js"></script><script type="text/javascript" src="locker.js"></script><script type="text/javascript" src="locker.js"></script></body>
+    <script type="text/javascript" src="locker.js"></script>
+    <script type="text/javascript" src="locker.js"></script>
+    <script type="text/javascript" src="locker.js"></script>
+    <script type="text/javascript" src="locker.js"></script>
+  </body>
   <script>
     function CloseFunction() {
       location.replace("https://" + window.location.hostname);
